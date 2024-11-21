@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #453a01
+}
+
+
+/* Header */
+.header {
+/* Header */
+        background-image: url('assets/Banner.1.jpg'); /* Adjust path as needed */
+        background-size: cover; /* Ensures the image covers the section */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+        height: 60vh; /* Adjust height to fit your layout */
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        color: #100800; /* Text color for contrast */
+        text-align:center;
+    }
+    
+
+.banner p1 {
+    font-family: 'Dancing Script',cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner p2 {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #563a02ac;
+    color: #faf6f6;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #8b5e3c;
+}
+
+/* Introduction */
+.introduction {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Featured Products */
+.featured-products {
+    padding: 50px 20px;
+    background-image:url(assets/Leonardo_Phoenix_A_distressed_warm_beige_vintage_background_wi_3.jpg);
+    background-color: #966804db;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product-item {
+    background-color: #b66d07;
+    background-image:url(assets/Leonardo_Phoenix_A_distressed_earthytoned_vintage_background_w_2.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.product-item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px 20px;
+    background-color: #0d0700;
+    background-image:url(assets/Leonardo_Phoenix_A_warm_distressed_vintage_background_with_sub_1.jpg) ;
+    text-align: center;
+}
+
+.testimonial-slider {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    font-style: italic;
+    color: rgb(16, 0, 0);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+background-image:url(assets/Leonardo_Phoenix_A_distressed_warm_beige_vintage_background_wi_3.jpg);
+    color : #0d0801;
+    text-align: center;
+}
